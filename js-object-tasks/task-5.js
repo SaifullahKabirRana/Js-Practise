@@ -15,5 +15,5 @@ for (let key in myObject){
      let type = typeof value;
      console.log("key:", key, "|", "type:", type);
 }
-  
+
 
