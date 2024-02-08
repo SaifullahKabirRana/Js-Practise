@@ -18,8 +18,8 @@ function fullName(first, last) {
     const full = first + " " + last;
     return full;
 }
-const full = fullName("Saifullah", "Kabir");
-console.log(full);
+// const full = fullName("Saifullah", "Kabir");
+// console.log(full);
 
 function getPrice(product) {
     if (typeof product !== 'object') {
@@ -30,7 +30,7 @@ function getPrice(product) {
 }
 const product = getPrice(20)
 // const product = getPrice({ name: 'culkani dandi', price: 35, color: 'blue' });
-console.log(product);
+// console.log(product);
 
 function getSecond(numbers){
     if(Array.isArray(numbers) === false){
