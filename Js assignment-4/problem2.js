@@ -10,7 +10,6 @@ function checkName(names){
             }
             else{
                 return "Bad Name";
-            }
-               
+            }              
 }
-console.log(checkName("RAFEE"));
+console.log(checkName(["Rashed"]));

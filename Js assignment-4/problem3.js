@@ -2,7 +2,7 @@ function deleteInvalids(array){
     if(Array.isArray(array) === false ){
         return "Invalid Array";
     }
-
+    
     let number = [];
     for(const arr of array){
         if( typeof arr === "number" && !isNaN(arr)){
@@ -11,4 +11,4 @@ function deleteInvalids(array){
     }
      return number;
 }
-console.log(deleteInvalids([ 1 , 2 , 3 ]));
+console.log(deleteInvalids({num: [ 1 , 2 , 3 ]}));
